@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>A Budget App </title>
+
+   <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+  <div class="container">
+  
+    <h2> my budget app</h2>
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8 first-box">
+        <div class="row">
+          <div class="p-3">
+          </div>
+          <div class="col-md-4 first-box-ist shadow-lg p-4">
+            <form class="form">
+              <label>Budget</label>
+              <input type="number" placeholder="Enter Total Budget" class="form-control mb-3" id="set-budget" />
+              <button id="budget-btn">Set Budget</button>
+            </form>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-7 first-box-2nd shadow-lg p-4">
+            <form class="form">
+              <label>Expense</label>
+              <input type="text" placeholder="Enter Expense Name" class="form-control mb-3" id="title" />
+              <input type="number" placeholder="Enter Expense Cost" class="form-control mb-3" id="cost" />
+              <button id="product-btn">Set Expense</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8 p-4 mt-5">
+        <div class="row second-part">
+          <div class="col-md-4 text-center">
+            <h4>Total Budget</h4>
+            <p id="total-budget">0</p>
+          </div>
+          <div class="col-md-4 second-part-2 text-center">
+            <h4>Total Expenses</h4>
+            <p id="expense">0</p>
+          </div>
+          <div class="col-md-4 second-part-3 text-center">
+            <h4>Remaining Budget</h4>
+            <p id="balance">0</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <div id="expense-list">
+          
+        </div>
+      <div class="col-md-2"></div>
+    </div>
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+ 
